@@ -7,12 +7,11 @@ print("If you don't want that, hit CTRL-C (^C).")
 print("If you do want that, hit RETURN")
 
 input("?")
+print("Are you sure? Last chance to hit CTRL-C")
+input("???")
 
 print("Openining the file...")
 target = open(filename, 'w')
-
-print("Truncating the file. Goodbye!")
-target.truncate()
 
 print("Now I'm going to ask you for three lines.")
 
