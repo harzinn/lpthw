@@ -1,0 +1,5 @@
+https://4sysops.com/archives/use-powershell-to-download-a-file-with-http-https-and-ftp/
+
+wget "http://www.contoso.com" -outfile "file"
+
+Invoke-WebRequest -Uri "http://www.contoso.com" -OutFile "C:\path\file"
