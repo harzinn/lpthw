@@ -6,15 +6,21 @@ def magic(arg1):
     total = arg1 * shards1
     return total
 
+<<<<<<< HEAD
 #goal is to pass data to the function magic more than one &
 #and get different (or same) results
 
 #lets make some magic
+=======
+>>>>>>> 44afa703351f824850af4c2ea15b1cc0b193abd6
 characters = int(input("How many characters are we checking?\n"))
 howmany = magic(characters)
 print(f"You would recieve {howmany} ultimus orb shards.\m")
 
+<<<<<<< HEAD
 #lets make more magic
+=======
+>>>>>>> 44afa703351f824850af4c2ea15b1cc0b193abd6
 characters2 = int(input("Again, How many characters are we checking?\n"))
 howmany2 = magic(characters2)
 print(f"You would recieve {howmany2} ultimus orb shards.\m")
