@@ -1,22 +1,22 @@
+#calling functions practice and improvements Friday, August 7, 2020 2:46 PM
+
 #where the magic happens
 def magic(arg1):
-    x = 180
-    shards = x / 5
-    shards1 = shards * 90
-    total = arg1 * shards1
-    return total
+    #check how many characters we are going to multiply the final total by
+    characters = int(input("How many characters are we checking?\n"))
+    #take the input of the function and run ultimus math on it
+    x = arg1 / 5
+    total = x * 90
+    #take the total and then multiply it by the earlier character check
+    real_total = total * characters
+    #return the final total back to whatever called the function
+    return real_total
 
-#goal is to pass data to the function magic more than one &
-#and get different (or same) results
-
-#lets make some magic
-characters = int(input("How many characters are we checking?\n"))
-howmany = magic(characters)
-print(f"You would recieve {howmany} ultimus orb shards.\m")
-
-#lets make more magic
-characters2 = int(input("Again, How many characters are we checking?\n"))
-howmany2 = magic(characters2)
-print(f"You would recieve {howmany2} ultimus orb shards.\m")
-
-#done
+#Take input from user on shard information
+x = int(input("How many extra char shards will you recieve?\n"))
+#pass input from user into magic fucntion and save as y
+y = magic(x)
+#print the results of the funcion return in the next line
+print(f"You would recieve {y} ultimus orb shards.\n")
+#poor attempt at letting the user read it before closing if ran double clicked
+input("Press Enter to close")
