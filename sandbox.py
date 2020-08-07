@@ -1,7 +1,7 @@
 #where the magic happens
 def magic(arg1):
-    max = 180
-    shards = max / 5
+    x = 180
+    shards = x / 5
     shards1 = shards * 90
     total = arg1 * shards1
     return total
