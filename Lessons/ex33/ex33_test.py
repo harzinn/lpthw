@@ -1,8 +1,4 @@
-
-
-def program():
-    increment = 2
-    max = 10
+def program(increment, max):
     i = 0
     numbers = []
 
@@ -20,4 +16,7 @@ def program():
     for x in numbers:
         print(x)
 
-program()
+top_end = int(input("Max range number:> "))
+increment_by = int(input("Increment by how many?:> "))
+
+program(increment_by, top_end)
