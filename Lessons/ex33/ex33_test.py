@@ -1,4 +1,10 @@
+<<<<<<< HEAD
 def program(increment, max):
+=======
+def program():
+    increment = 2
+    max = 10
+>>>>>>> 10bd0d096ad5a965f079b140c747e259378b4748
     i = 0
     numbers = []
 
