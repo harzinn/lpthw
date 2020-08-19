@@ -1,13 +1,13 @@
+import timeit
+
 def program(max, steps):
     i = 0
     numbers = []
 
     print(f"At the top i is {i}")
     numbers = [*range(0, max, steps)]
-    for n in numbers:
-        print(n)
 
-    i = i + steps
+    i = i + 2
     print("Numbers now: ", numbers)
     print(f"At the bottom i is {i}")
 
