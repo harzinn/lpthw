@@ -4,6 +4,8 @@ def program(max, steps):
 
     print(f"At the top i is {i}")
     numbers = [*range(0, max, steps)]
+    for n in numbers:
+        print(n)
 
     i = i + steps
     print("Numbers now: ", numbers)
