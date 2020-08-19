@@ -1,5 +1,3 @@
-
-
 def program():
     increment = 2
     max = 10
