@@ -19,7 +19,7 @@ for i in change:
 elements = []
 
 # then use the range function to do 0 to 5 counts
-for x in range(0,6)
+for x in range(0,6):
     print(f"Adding {x} to the list.")
     # append is a funciton that lists undrestand
     elements.append(x)
