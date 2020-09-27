@@ -1,23 +1,6 @@
-import timeit
+bandwidth = 10000000
+delay = 10
 
-def program(max, steps):
-    i = 0
-    numbers = []
+metric = int(256 * ((10**7 / bandwidth) + (delay / 10)))
 
-    print(f"At the top i is {i}")
-    numbers = [*range(0, max, steps)]
-
-    i = i + 2
-    print("Numbers now: ", numbers)
-    print(f"At the bottom i is {i}")
-
-
-    print("The numbers: ")
-
-    for x in numbers:
-        print(x)
-
-top_end = int(input("Max range number:> "))
-increment_by = int(input("Increment by how many?:> "))
-
-program(top_end, increment_by)
+print(metric)
